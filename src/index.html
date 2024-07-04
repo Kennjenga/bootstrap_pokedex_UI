@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+</head>
+
+<body>
+    <div class="container mt-2">
+        <!-- Header -->
+        <header class="d-flex justify-content-between">
+            <a href="./home.html" class="btn btn-outline-success">Home</a>
+            <h3>Pokedex</h3>
+            <!-- Navigation links (Home, About, Contact) -->
+            <!-- Add your navigation links here -->
+        </header>
+
+
+        <!-- Search Bar -->
+        <div class="row mt-3">
+            <form class="d-flex col-md-7 offset-md-3" role="search" id="searchForm">
+                <input class="form-control me-2" type="search" placeholder="Search Pokemon..." aria-label="Search"
+                    id="searchInput">
+                <button class="btn btn-outline-success" type="submit" id="searchButton">Search</button>
+            </form>
+        </div>
+
+        <!-- Pokemon List (Cards) -->
+        <div class="row mt-4" id="pokecontainer">
+            <!-- Example card for a Pokemon -->
+
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="pokemonModal" tabindex="-1" aria-labelledby="pokemonModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="pokemonModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./pokemon.png" id="modalPokemonImage" class="img-fluid" alt="Pokemon Image">
+                        <p id="modalPokemonTypes"></p>
+                        <p id="modalPokemonHeight"></p>
+                        <p id="modalPokemonWeight"></p>
+                        <p id="modalPokemonAbilities"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Detailed View for Each Pokemon -->
+        <!-- Add a modal or separate page for detailed view -->
+        <div class="row mt-4">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center" id="pagination"></ul>
+            </nav>
+        </div>
+
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
