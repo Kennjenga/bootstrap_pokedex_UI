@@ -13213,9 +13213,7 @@ body {
 
 #pokecontainer .card {
   backdrop-filter: blur(50px);
-  aspect-ratio: .9;
   background: none;
-  height: 320px;
 }
 
 #pikachu {

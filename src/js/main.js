@@ -1,10 +1,9 @@
-import * as bootstrap from "bootstrap";
-
 document.addEventListener("DOMContentLoaded", () => {
   const searchForm = document.getElementById("searchForm");
   const searchInput = document.getElementById("searchInput");
   const pokemonContainer = document.getElementById("pokecontainer");
   const pagination = document.getElementById("pagination");
+  const pokemonDetails = document.getElementById("pokemonDetails");
   let currentPage = 1;
   const limit = 12;
   let totalPages = 1;
@@ -74,15 +73,14 @@ document.addEventListener("DOMContentLoaded", () => {
       .join(", ");
 
     const cardContent = `
-        <div class="card">
-          <img src="${pokemon.sprites.front_default}" height="200px" class="card-img-top" alt="${pokemon.name}">
-          <div class="card-body">
-            <h5 class="card-title">${pokemon.name}</h5>
-            <p class="card-text">Type: ${typeNames}</p>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#pokemonModal" data-pokemon-id="${pokemon.id}">View Details</button>
+          <div class="card">
+            <img src="${pokemon.sprites.front_default}" class="card-img-top" alt="${pokemon.name}">
+            <div class="card-body">
+              <h5 class="card-title">${pokemon.name}</h5>
+              <p class="card-text">Type: ${typeNames}</p>
+            </div>
           </div>
-        </div>
-      `;
+        `;
 
     card.innerHTML = cardContent;
     pokemonContainer.appendChild(card);
@@ -117,10 +115,10 @@ document.addEventListener("DOMContentLoaded", () => {
     prevButton.classList.add("page-item");
     if (currentPage === 1) prevButton.classList.add("disabled");
     prevButton.innerHTML = `
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-        </a>
-      `;
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        `;
     prevButton.addEventListener("click", (event) => {
       event.preventDefault();
       if (currentPage > 1) {
@@ -158,10 +156,10 @@ document.addEventListener("DOMContentLoaded", () => {
     nextButton.classList.add("page-item");
     if (currentPage === totalPages) nextButton.classList.add("disabled");
     nextButton.innerHTML = `
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-        </a>
-      `;
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        `;
     nextButton.addEventListener("click", (event) => {
       event.preventDefault();
       if (currentPage < totalPages) {
@@ -171,45 +169,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     pagination.appendChild(nextButton);
   }
-
-  async function showModal(pokemonId) {
-    const pokemon = await fetchSpecificApi(
-      `https://pokeapi.co/api/v2/pokemon/${pokemonId}`
-    );
-    if (pokemon) {
-      document.getElementById("pokemonModalLabel").textContent = pokemon.name;
-      document.getElementById("modalPokemonImage").src =
-        pokemon.sprites.front_default;
-      document.getElementById(
-        "modalPokemonTypes"
-      ).textContent = `Type: ${pokemon.types
-        .map((typeInfo) => typeInfo.type.name)
-        .join(", ")}`;
-      document.getElementById(
-        "modalPokemonHeight"
-      ).textContent = `Height: ${pokemon.height}`;
-      document.getElementById(
-        "modalPokemonWeight"
-      ).textContent = `Weight: ${pokemon.weight}`;
-      document.getElementById(
-        "modalPokemonAbilities"
-      ).textContent = `Abilities: ${pokemon.abilities
-        .map((abilityInfo) => abilityInfo.ability.name)
-        .join(", ")}`;
-    }
-  }
-
-  document
-    .querySelector("#pokecontainer")
-    .addEventListener("click", (event) => {
-      const button = event.target.closest(".btn-primary");
-      if (button) {
-        const pokemonId = button.getAttribute("data-pokemon-id");
-        if (pokemonId) {
-          showModal(pokemonId);
-        }
-      }
-    });
 
   searchForm.addEventListener("submit", searchPoke);
 
