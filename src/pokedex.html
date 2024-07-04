@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="scss/styles.scss">
+</head>
+
+<body>
+    <div class="container mt-2">
+        <!-- Header -->
+        <header class="d-flex justify-content-between">
+            <a href="./index.html" class="btn btn-outline-success">Home</a>
+            <h3>Pokedex</h3>
+            <!-- Navigation links (Home, About, Contact) -->
+            <!-- Add your navigation links here -->
+        </header>
+
+
+        <!-- Search Bar -->
+        <div class="row mt-3">
+            <form class="d-flex col-md-7 offset-md-3" role="search" id="searchForm">
+                <input class="form-control me-2" type="search" placeholder="Search Pokemon..." aria-label="Search"
+                    id="searchInput">
+                <button class="btn btn-outline-success" type="submit" id="searchButton">Search</button>
+            </form>
+        </div>
+
+        <!-- Pokemon List (Cards) -->
+        <div class="row mt-4" id="pokecontainer">
+            <!-- Example card for a Pokemon -->
+
+        </div>
+
+        <!-- Detailed View for Each Pokemon -->
+        <!-- Add a modal or separate page for detailed view -->
+        <div class="row mt-4">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center" id="pagination"></ul>
+            </nav>
+        </div>
+
+    </div>
+    <script type="module" src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+
+</html>
