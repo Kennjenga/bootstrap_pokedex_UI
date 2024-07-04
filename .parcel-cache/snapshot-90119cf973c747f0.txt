@@ -1,5 +1,4 @@
 6543
-58E:\everyweb_apprentice\immersive\bootstrap\dist\index.html133645667024334580 0
 78E:\everyweb_apprentice\immersive\bootstrap\node_modules\css-tree\dist\data.cjs133643210111423089 0
 97E:\everyweb_apprentice\immersive\bootstrap\node_modules\lmdb\node_modules\node-addon-api\index.js133643210165599024 0
 87E:\everyweb_apprentice\immersive\bootstrap\node_modules\css-select\lib\pseudo-selectors133643210131917326 1
@@ -7,7 +6,7 @@
 89E:\everyweb_apprentice\immersive\bootstrap\node_modules\svgo\plugins\removeUselessDefs.js133643210132747345 0
 95E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\optimizer-htmlnano\package.json133643210150343865 0
 66E:\everyweb_apprentice\immersive\bootstrap\node_modules\css-select133643210127027322 1
-69E:\everyweb_apprentice\immersive\bootstrap\dist\index.18dbc454.js.map133645666825366093 0
+69E:\everyweb_apprentice\immersive\bootstrap\dist\index.18dbc454.js.map133645668413759459 0
 101E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\optimizer-svgo\node_modules\.bin\svgo133643210318615801 0
 97E:\everyweb_apprentice\immersive\bootstrap\node_modules\@swc\helpers\src\_to_consumable_array.mjs133643210174571677 0
 101E:\everyweb_apprentice\immersive\bootstrap\node_modules\@popperjs\core\lib\utils\getVariation.js.flow133643207148577813 0
@@ -23,7 +22,7 @@
 118E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\syntaxes.json133643210107613106 0
 77E:\everyweb_apprentice\immersive\bootstrap\node_modules\csso\dist\csso.esm.js133643210127157349 0
 72E:\everyweb_apprentice\immersive\bootstrap\node_modules\stable\README.md133643210087491281 0
-47E:\everyweb_apprentice\immersive\bootstrap\dist133645667024354576 1
+47E:\everyweb_apprentice\immersive\bootstrap\dist133645668414979439 1
 65E:\everyweb_apprentice\immersive\bootstrap\node_modules\env-paths133643210090111313 1
 127E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Comment.js133643210104713076 0
 115E:\everyweb_apprentice\immersive\bootstrap\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.1133643210112733072 0
@@ -111,7 +110,7 @@
 101E:\everyweb_apprentice\immersive\bootstrap\node_modules\caniuse-lite\data\features\css-placeholder.js133643210149092471 0
 66E:\everyweb_apprentice\immersive\bootstrap\node_modules\domhandler133643210093673611 1
 73E:\everyweb_apprentice\immersive\bootstrap\node_modules\stable\index.d.ts133643210086241277 0
-63E:\everyweb_apprentice\immersive\bootstrap\src\scss\styles.scss133645660354246155 0
+63E:\everyweb_apprentice\immersive\bootstrap\src\scss\styles.scss133645668238282681 0
 93E:\everyweb_apprentice\immersive\bootstrap\node_modules\csso\node_modules\css-tree\cjs\walker133643210155839055 1
 116E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\sort.d.ts133643210112583072 0
 78E:\everyweb_apprentice\immersive\bootstrap\node_modules\to-regex-range\LICENSE133643210087571297 0
@@ -459,7 +458,7 @@
 94E:\everyweb_apprentice\immersive\bootstrap\node_modules\csso\node_modules\css-tree\lib\data.js133643210170289062 0
 74E:\everyweb_apprentice\immersive\bootstrap\node_modules\picocolors\LICENSE133643210084951298 0
 91E:\everyweb_apprentice\immersive\bootstrap\node_modules\update-browserslist-db\package.json133643210093245302 0
-66E:\everyweb_apprentice\immersive\bootstrap\dist\index.044e704e.css133645664810869117 0
+66E:\everyweb_apprentice\immersive\bootstrap\dist\index.044e704e.css133645668414929412 0
 72E:\everyweb_apprentice\immersive\bootstrap\node_modules\msgpackr-extract133643210093775942 1
 74E:\everyweb_apprentice\immersive\bootstrap\node_modules\htmlnano\README.md133643210129477326 0
 70E:\everyweb_apprentice\immersive\bootstrap\node_modules\node-addon-api133643210107053108 1
@@ -2429,7 +2428,7 @@
 96E:\everyweb_apprentice\immersive\bootstrap\node_modules\@swc\helpers\src\_async_to_generator.mjs133643210168049049 0
 93E:\everyweb_apprentice\immersive\bootstrap\node_modules\domelementtype\lib\esm\index.d.ts.map133643210093235135 0
 77E:\everyweb_apprentice\immersive\bootstrap\node_modules\entities\package.json133643210100483095 0
-68E:\everyweb_apprentice\immersive\bootstrap\dist\pokemon.e723a0c6.png133645664809902584 0
+68E:\everyweb_apprentice\immersive\bootstrap\dist\pokemon.e723a0c6.png133645668413299428 0
 74E:\everyweb_apprentice\immersive\bootstrap\node_modules\js-tokens\index.js133643210087531323 0
 73E:\everyweb_apprentice\immersive\bootstrap\node_modules\js-tokens\LICENSE133643210088651300 0
 118E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\convertor133643210125305406 1
@@ -4046,7 +4045,7 @@
 87E:\everyweb_apprentice\immersive\bootstrap\node_modules\caniuse-lite\data\regions\AR.js133643210110583110 0
 87E:\everyweb_apprentice\immersive\bootstrap\node_modules\caniuse-lite\data\regions\AU.js133643210114473116 0
 87E:\everyweb_apprentice\immersive\bootstrap\node_modules\caniuse-lite\data\regions\AW.js133643210118563101 0
-64E:\everyweb_apprentice\immersive\bootstrap\dist\home.e6f346f6.js133645664809957586 0
+64E:\everyweb_apprentice\immersive\bootstrap\dist\home.e6f346f6.js133645668413679405 0
 102E:\everyweb_apprentice\immersive\bootstrap\node_modules\caniuse-lite\data\features\meta-theme-color.js133643210178937825 0
 119E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\workers\test\integration\workerfarm\shared-reference.js133643210126417320 0
 87E:\everyweb_apprentice\immersive\bootstrap\node_modules\caniuse-lite\data\regions\AZ.js133643210120313102 0
@@ -5203,7 +5202,7 @@
 83E:\everyweb_apprentice\immersive\bootstrap\node_modules\@popperjs\core\package.json133643207138697074 0
 80E:\everyweb_apprentice\immersive\bootstrap\node_modules\@popperjs\core\README.md133643207138647059 0
 90E:\everyweb_apprentice\immersive\bootstrap\node_modules\@popperjs\core\lib\createPopper.js133643207138767072 0
-65E:\everyweb_apprentice\immersive\bootstrap\dist\index.18dbc454.js133645666825326102 0
+65E:\everyweb_apprentice\immersive\bootstrap\dist\index.18dbc454.js133645668413679405 0
 141E:\everyweb_apprentice\immersive\bootstrap\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\AttributeSelector.js133643210096180693 0
 95E:\everyweb_apprentice\immersive\bootstrap\node_modules\@popperjs\core\lib\createPopper.js.flow133643207138787059 0
 84E:\everyweb_apprentice\immersive\bootstrap\node_modules\@popperjs\core\lib\dom-utils133643207144117065 1
@@ -6537,8 +6536,9 @@
 71E:\everyweb_apprentice\immersive\bootstrap\node_modules\.bin\semver.cmd133643210318645776 0
 71E:\everyweb_apprentice\immersive\bootstrap\node_modules\.bin\semver.ps1133643210318635791 0
 87E:\everyweb_apprentice\immersive\bootstrap\node_modules\.bin\update-browserslist-db.ps1133643210318645776 0
-68E:\everyweb_apprentice\immersive\bootstrap\dist\home.e6f346f6.js.map133645664810047755 0
-57E:\everyweb_apprentice\immersive\bootstrap\dist\home.html133645664809957586 0
 75E:\everyweb_apprentice\immersive\bootstrap\dist\index.044e704e.css.14332.ag133644735924099248 0
-70E:\everyweb_apprentice\immersive\bootstrap\dist\index.044e704e.css.map133645664811081408 0
 69E:\everyweb_apprentice\immersive\bootstrap\dist\pikachu.775ae578.jfif133645566885929656 0
+68E:\everyweb_apprentice\immersive\bootstrap\dist\home.e6f346f6.js.map133645668413769464 0
+58E:\everyweb_apprentice\immersive\bootstrap\dist\index.html133645668414759445 0
+57E:\everyweb_apprentice\immersive\bootstrap\dist\home.html133645668414759445 0
+70E:\everyweb_apprentice\immersive\bootstrap\dist\index.044e704e.css.map133645668414969411 0

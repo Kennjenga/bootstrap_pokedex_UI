@@ -13216,6 +13216,10 @@ body {
   background: none;
 }
 
+#pokecontainer .card img {
+  height: 200px;
+}
+
 #pikachu {
   background: none;
   width: 140px;
