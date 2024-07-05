@@ -1,5 +1,5 @@
 // Import all of Bootstrap's JS
-import * as bootstrap from "bootstrap";
+// import * as bootstrap from "bootstrap";
 
 document.addEventListener("DOMContentLoaded", () => {
   // const searchForm = document.getElementById("searchForm");
