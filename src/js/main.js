@@ -2,11 +2,11 @@
 import * as bootstrap from "bootstrap";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const searchForm = document.getElementById("searchForm");
+  // const searchForm = document.getElementById("searchForm");
   const searchInput = document.getElementById("searchInput");
+  const searchButton = document.getElementById("searchButton");
   const pokemonContainer = document.getElementById("pokecontainer");
   const pagination = document.getElementById("pagination");
-  const pokemonDetails = document.getElementById("pokemonDetails");
   let currentPage = 1;
   const limit = 12;
   let totalPages = 1;
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
     pagination.appendChild(nextButton);
   }
 
-  searchForm.addEventListener("submit", searchPoke);
+  searchButton.addEventListener("click", searchPoke);
 
   // Fetch all Pokémon data and then render the first page
   fetchAllPokemons().then((data) => {
