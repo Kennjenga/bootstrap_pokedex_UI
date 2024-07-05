@@ -1,0 +1,43 @@
+@import "bootstrap/scss/bootstrap";
+
+:root{
+--text-color: white;
+--font-type: Verdana, Tahoma, sans-serif,serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    /* outline: 1px solid black; */
+    color: var(--text-color);
+    font-family: var(--font-type);
+}
+body{
+    background: radial-gradient(circle, rgba(0, 92, 191,0.95) 0%, rgba(255,203,5,0.8) 100%);
+    height: 100vh;
+}
+.active-page .page-link {
+    background-color: #28a745;
+    color: white;
+}
+.card-body .card-text{
+    color: black;
+}
+#pokecontainer .card{
+    background: transparent;
+    backdrop-filter: blur(50px);
+    /* height: 320px;
+    aspect-ratio: .9 /1; */
+}
+#pokecontainer .card img{
+    height: 200px;
+}
+  
+#pikachu{
+    background: transparent;
+    width: 140px;
+    height: 140px;
+}
