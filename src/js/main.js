@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Create previous button
     const prevButton = document.createElement("li");
-    prevButton.classList.add("page-item text-primary");
+    prevButton.classList.add("page-item");
     if (currentPage === 1) prevButton.classList.add("disabled");
     prevButton.innerHTML = `
           <a class="page-link" href="#" aria-label="Previous">
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Create next button
     const nextButton = document.createElement("li");
-    nextButton.classList.add("page-item text-primary");
+    nextButton.classList.add("page-item");
     if (currentPage === totalPages) nextButton.classList.add("disabled");
     nextButton.innerHTML = `
           <a class="page-link" href="#" aria-label="Next">
