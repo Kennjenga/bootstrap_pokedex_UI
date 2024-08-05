@@ -44,7 +44,9 @@ header{
     height: 70px; /* Adjust the height as needed */
     padding: 10px 20px;
 }
-
+#typeFilter{
+    color: black;
+}
 img{
     width: 180px;
     height: 180px;
