@@ -56,4 +56,6 @@ img{
     width:131px;
     height:40px;
 }
-
+.pagination-icon {
+  color: #333; /* Darker color, you can adjust this as needed */
+}
