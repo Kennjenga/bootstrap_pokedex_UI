@@ -40,27 +40,6 @@ body{
     height: 140px;
 }
 
-.pagination {
-    backdrop-filter: blur(30px);
-    background-color: rgba(255, 255, 255, 0.3); /* Slightly transparent background */
-    border-radius: 5px;
-}
-
-.pagination .page-item .page-link {
-    color: inherit;
-    background: transparent;
-    border: none;
-}
-
-.pagination .page-item.active .page-link {
-    background-color: rgba(0, 123, 255, 0.2); /* Slightly transparent active page */
-    border: none;
-    color: inherit;
-}
-
-.pagination .page-item:hover .page-link {
-    background-color: rgba(0, 123, 255, 0.1); /* Slightly transparent hover effect */
-}
 header{
     height: 70px; /* Adjust the height as needed */
     padding: 10px 20px;
