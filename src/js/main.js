@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentPage === 1) prevButton.classList.add("disabled");
     prevButton.innerHTML = `
           <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
+            <span aria-hidden="true" class="pagination-icon">&laquo;</span>
           </a>
         `;
     prevButton.addEventListener("click", (event) => {
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentPage === totalPages) nextButton.classList.add("disabled");
     nextButton.innerHTML = `
           <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
+            <span aria-hidden="true" class="pagination-icon">&raquo;</span>
           </a>
         `;
     nextButton.addEventListener("click", (event) => {
